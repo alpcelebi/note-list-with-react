@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;700&family=Prompt&family=Roboto:wght@300;400;500;700;900&family=Varela+Round&display=swap');
+
+ :root {
+    --primary-color : #1C658C ;
+    --secondary-color:#DDDDDD ;
+ }
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+ }
+
+ .container {
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+ }
+
+ .navbar {
+    margin: 10px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+ }
+
+ .navbar h1 {
+  margin: 10px 0;
+ }
+
+ .note-list {
+  margin: 20px;
+ }
+
+ .note-list ul {
+  list-style-type: none;
+  padding: 0;
+ }
+
+ .note-list li {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+
+ }
+
+ .note-list li:hover {
+  text-decoration: line-through;
+  color: red;
+ 
+ }
+
+ .note-list .title {
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-weight: 700;
+ }
+
+ .note-list p {
+  font-size: 15px;
+  font-style: italic;
+ }
+
+
+ form {
+  padding: 20px;
+ }
+
+
+ .in-text {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+   background-color: rgba(0, 0, 0, 0.3);
+  color: var(--secondary-color);
+  border: 0;
+ }
+
+ .in-sub {
+
+    margin: 10px auto;
+    display: block;
+    color:var(--primary-color);
+    background-color: white;
+    padding: 6px 20px;
+    border: 0;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+ }
+
+ .emty{
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--primary-color);
+
+ }
